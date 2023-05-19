@@ -1,0 +1,59 @@
+/* header */
+header{
+    height: 300px;
+}
+
+.links{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.links a{
+    color: inherit;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+.links>span { /* 링크들을 상단 우측에 위치*/
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+/* main */
+
+main{
+    min-height: 900px;
+    text-align: center;
+}
+
+main > div > img{
+    height: 25px;
+}
+
+main>div>button{
+    border: none;
+    background: lightgrey;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: 35px;
+}
+
+/* footer */
+footer {
+    background: lightgray;
+    height: 80px;
+    padding: 8px 8px 0 8px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    }
+  
+  .footer-one, .footer-two {
+    flex: 1;
+  }
+
